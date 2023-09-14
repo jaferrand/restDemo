@@ -1,20 +1,18 @@
 
-import './App.css'
 import { MainRouter } from './Router/MainRouter'
-import Footer from './components/Footer'
+import { Footer } from './components/Footer'
 import { NavBar } from './components/NavBar'
 
 
-function App() {
 
+
+export const App=()=>{
 
   return (
-    <>
-      <NavBar/>
-      <MainRouter/>
-      <Footer/>
+    < >
+    <NavBar/>
+    <MainRouter/>
+    <Footer/>
     </>
   )
 }
-
-export default App
