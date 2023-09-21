@@ -7,7 +7,7 @@ export const NavBar = () => {
     return (
         <Navbar expand="lg" className="bg-body-tertiary ms-4" >
             
-                <Navbar.Brand as={Link} to='/' ><img src="../public/img/logoPNG2.png" alt="logo" width='100px' height='100px' /></Navbar.Brand>
+                <Navbar.Brand as={Link} to='/restDemo/' ><img src="/src/assets/img/logoPNG2.png" alt="logo" width='100px' height='100px' /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
