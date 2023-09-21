@@ -1,6 +1,6 @@
 /* Estilos para el fondo del encabezado (banner) */
 .banner {
-    background-image: url('/imagen/banner-about.jpg');
+    background-image: url('/img/banner-about.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;

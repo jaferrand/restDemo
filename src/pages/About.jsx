@@ -13,7 +13,7 @@ export const About = () => {
       {/* Sección de historia con abuela */}
       <section className="historia">
         <div className="historia-imagen">
-          <img src="/imagen/about1.jpg" alt="Abuela del restaurante" />
+          <img src="/src/assets/img/about1.jpg" alt="Abuela del restaurante" />
         </div>
         <div className="historia-texto">
           <h2>La Abuela que Inspiró Nuestro Restaurante</h2>
@@ -24,7 +24,7 @@ export const About = () => {
       {/* Otra sección de historia */}
       <section className="historia2">
         <div className="historia2-imagen">
-          <img src="/imagen/about2.jpg" alt="Interior del restaurante" />
+          <img src="/src/assets/img/about2.jpg" alt="Interior del restaurante" />
         </div>
         <div className="historia2-texto">
           <h2>Un Rincón de Italia en Cada Plato</h2>

@@ -1,6 +1,6 @@
 /* Estilos para el fondo del encabezado*/
 .banner {
-    background-image: url('/public/imagen/pexels-engin-akyurt-1435898.jpg');
+    background-image: url('/src/assets/img/pexels-engin-akyurt-1435898.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;

@@ -7,7 +7,7 @@ export const Blog = () => {
       <h1>Nuestro Blog</h1>
       <div className="blog-post">
         <img
-          src="/public/imagen/blog3.jpg"
+          src="/src/assets/img/blog3.jpg"
           alt="Plato de pasta"
           className="blog-post-image"
         />
@@ -25,7 +25,7 @@ export const Blog = () => {
       </div>
       <div className="blog-post">
         <img
-          src="/public/imagen/blog2.jpg"
+          src="/src/assets/img/blog2.jpg"
           alt="Pizza italiana"
           className="blog-post-image"
         />
@@ -45,7 +45,7 @@ export const Blog = () => {
       {/* Nueva sección: "El arte de hacer gnocchi" */}
       <div className="blog-post">
         <img
-          src="/public/imagen/blog5.jpg"
+          src="/src/assets/img/blog5.jpg"
           alt="Gnocchi caseros"
           className="blog-post-image"
         />
@@ -64,7 +64,7 @@ export const Blog = () => {
       {/* Nueva sección: "Los secretos de la auténtica lasaña" */}
       <div className="blog-post">
         <img
-          src="/public/imagen/blog4.jpg"
+          src="/src/assets/img/blog4.jpg"
           alt="Lasaña italiana"
           className="blog-post-image"
         />

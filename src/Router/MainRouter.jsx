@@ -10,11 +10,11 @@ export const MainRouter = () => {
   return (
     <>
     <Routes>
-        <Route path='/' element={<Home /> }/>
-        <Route path= '/menu' element={<Menu/>}/>
-        <Route path='/about' element={<About/>}/>
-        <Route path='/reservas'element={<Reservas/>}/>
-        <Route path='/blog'element={<Blog/>}/>
+        <Route path='/restDemo/' element={<Home /> }/>
+        <Route path= '/restDemo/menu' element={<Menu/>}/>
+        <Route path='/restDemo/about' element={<About/>}/>
+        <Route path='/restDemo/reservas'element={<Reservas/>}/>
+        <Route path='/restDemo/blog'element={<Blog/>}/>
 
         <Route path='*' element={<h1>Error 404 - La pagina que buscas no se encuentra</h1>}/>
     </Routes>

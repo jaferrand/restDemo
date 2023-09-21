@@ -23,7 +23,7 @@ export const Reservas = () => {
 
 
     alert('Su Reserva esta enviada')
-    window.location = '/reservas'
+    window.location = '/restDemo/reservas'
   }
 
 
