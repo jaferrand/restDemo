@@ -1,0 +1,87 @@
+/* Estilos para el fondo del encabezado (banner) */
+.banner {
+    background-image: url('/imagen/banner-about.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+  }
+  
+  .banner h1 {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  /* Estilos para la sección de historia con abuela */
+  .historia {
+    background-color: #fff;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilos para la imagen en la sección de historia */
+  .historia-imagen {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .historia-imagen img {
+    max-width: 100%;
+  }
+  
+  /* Estilos para el texto en la sección de historia */
+  .historia-texto {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .historia-texto h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .historia-texto p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilos para la segunda sección de historia */
+  .historia2 {
+    background-color: #f9f9f9;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Estilos para la imagen en la segunda sección de historia */
+  .historia2-imagen {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .historia2-imagen img {
+    max-width: 100%;
+  }
+  
+  /* Estilos para el texto en la segunda sección de historia */
+  .historia2-texto {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .historia2-texto h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .historia2-texto p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  

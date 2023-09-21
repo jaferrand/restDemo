@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom';
 
 export const NavBar = () => {
     return (
-        <Navbar expand="lg" className="bg-body-tertiary">
-            <Container>
-                <Navbar.Brand as={Link} to='/' >React-Bootstrap</Navbar.Brand>
+        <Navbar expand="lg" className="bg-body-tertiary ms-4" >
+            
+                <Navbar.Brand as={Link} to='/' ><img src="../public/imagen/logoPNG2.png" alt="logo" width='100px' height='100px' /></Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
@@ -15,10 +15,11 @@ export const NavBar = () => {
                         <Nav.Link as={Link} to='/about'>About</Nav.Link>
                         <Nav.Link as={Link} to='/menu'>Menu</Nav.Link>
                         <Nav.Link as={Link} to='/reservas'>Reservas</Nav.Link>
+                        <Nav.Link as={Link} to='/blog'>Blog</Nav.Link>
 
                     </Nav>
                 </Navbar.Collapse>
-            </Container>
+            
         </Navbar>
     );
 }

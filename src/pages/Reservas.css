@@ -1,0 +1,87 @@
+/* Estilos para la página de reservas */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FDF2E9; /* Fondo cálido */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #FF9E7B; /* Color de encabezado cálido */
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Estilos para las imágenes de platos */
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+  }
+  
+  /* Estilos para los campos de entrada y botón */
+  input[type="text"],
+  input[type="number"],
+  input[type="date"],
+  input[type="time"],
+  button {
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #FF9E7B; /* Borde en color cálido */
+    border-radius: 5px;
+    width: 100%;
+    background-color: #FFE3CE; /* Fondo de entrada y botón cálido */
+    color: #C4583A; /* Texto en color cálido */
+  }
+  
+  button {
+    background-color: #FF9E7B; /* Botón en color destacado */
+    color: #fff; /* Texto en color blanco */
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  /* Estilos para dispositivos pequeños (responsive) */
+  @media (max-width: 768px) {
+    .container {
+      max-width: 90%;
+    }
+  }
+  
+  /* Estilos para dispositivos muy pequeños (responsive) */
+  @media (max-width: 480px) {
+    h1 {
+      font-size: 24px;
+    }
+  
+    img {
+      margin: 10px auto;
+    }
+  
+    input[type="text"],
+    input[type="number"],
+    input[type="date"],
+    input[type="time"],
+    button {
+      font-size: 14px;
+      padding: 8px;
+      margin: 8px 0;
+    }
+  
+    button {
+      padding: 12px;
+      font-size: 14px;
+    }
+  }

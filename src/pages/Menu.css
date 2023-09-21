@@ -1,0 +1,51 @@
+/* Estilos para la página del menú */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Estilos para los elementos de menú */
+.menu-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #fff;
+}
+
+.menu-item:hover {
+  background-color: #f9f9f9;
+}
+
+.menu-item img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.menu-item h2 {
+  font-size: 24px;
+  color: #333;
+}
+
+.menu-item p {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Estilos para los precios */
+.menu-item .price {
+  font-size: 20px;
+  color: #ff5733;
+}
