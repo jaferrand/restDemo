@@ -7,7 +7,7 @@ export const Blog = () => {
       <h1>Nuestro Blog</h1>
       <div className="blog-post">
         <img
-          src="/src/assets/img/blog3.jpg"
+          src="img/blog3.jpg"
           alt="Plato de pasta"
           className="blog-post-image"
         />
@@ -18,14 +18,14 @@ export const Blog = () => {
             cocina. En este artículo, te contaremos los secretos detrás de
             nuestras deliciosas pastas.
           </p>
-          <a href="/blog/1" className="read-more-link">
+          <a href="#blog" className="read-more-link">
             Leer más
           </a>
         </div>
       </div>
       <div className="blog-post">
         <img
-          src="/src/assets/img/blog2.jpg"
+          src="img/blog2.jpg"
           alt="Pizza italiana"
           className="blog-post-image"
         />
@@ -36,7 +36,7 @@ export const Blog = () => {
             descubrir la verdadera pizza italiana y sus variaciones en nuestro
             restaurante.
           </p>
-          <a href="/blog/2" className="read-more-link">
+          <a href="#blog" className="read-more-link">
             Leer más
           </a>
         </div>
@@ -45,7 +45,7 @@ export const Blog = () => {
       {/* Nueva sección: "El arte de hacer gnocchi" */}
       <div className="blog-post">
         <img
-          src="/src/assets/img/blog5.jpg"
+          src="img/blog5.jpg"
           alt="Gnocchi caseros"
           className="blog-post-image"
         />
@@ -55,7 +55,7 @@ export const Blog = () => {
             Los gnocchi son una deliciosa especialidad italiana. Aprende cómo
             hacer gnocchi caseros con nuestra receta exclusiva.
           </p>
-          <a href="/blog/3" className="read-more-link">
+          <a href="#blog" className="read-more-link">
             Leer más
           </a>
         </div>
@@ -64,7 +64,7 @@ export const Blog = () => {
       {/* Nueva sección: "Los secretos de la auténtica lasaña" */}
       <div className="blog-post">
         <img
-          src="/src/assets/img/blog4.jpg"
+          src="img/blog4.jpg"
           alt="Lasaña italiana"
           className="blog-post-image"
         />

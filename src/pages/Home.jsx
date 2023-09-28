@@ -7,7 +7,7 @@ export const Home = () => {
     <div>
       {/* Banner con imagen representativa y logo */}
       <header className="banner">
-        <img src='/src/assets/img/logoPNG2.png' alt="Logo del restaurante" />
+        <img src='img/logoPNG2.png' alt="Logo del restaurante" />
         <h1>GranDangolo</h1>
         <p>Bienvenidos a nuestro restaurante de comida italiana.</p>
       </header>
@@ -15,7 +15,7 @@ export const Home = () => {
       {/* Sección de reseña de pastas frescas */}
       <section className="resena-pastas">
         <div className="resena-imagen">
-          <img src="/src/assets/img/camarones.jpg" alt="Pastas Frescas" />
+          <img src="img/camarones.jpg" alt="Pastas Frescas" />
         </div>
         <div className="resena-texto">
           <h2>Descubre Nuestras Pastas Frescas</h2>

@@ -1,0 +1,40 @@
+{
+    "menus": [
+        {
+            "sku": 1,
+            "nombrePlato": "Menú Clásico",
+            "patoPrincipal": "Spaghetti Carbonara",
+            "entrada":"Bruschetta italiana",
+            "postre":"Tiramisú",
+            "precio":15000,
+            "imagen":"img/menu1.jpg"
+        },
+        {
+            "sku": 2,
+            "nombrePlato": "Menú Vegetariano",
+            "patoPrincipal": "Lasagna de vegetales",
+            "entrada":"Caprese de tomate y mozzarella",
+            "postre":"Panna Cotta",
+            "precio":12000,
+            "imagen":"img/menu2.jpg"
+        },
+        {
+            "sku": 3,
+            "nombrePlato": "Menú de Mariscos",
+            "patoPrincipal": "Risotto de mariscos",
+            "entrada":"Calamares a la romana",
+            "postre":"Gelato de limón",
+            "precio":18000,
+            "imagen":"img/menu3.jpg"
+        },
+        {
+            "sku": 4,
+            "nombrePlato": "Menú Ejecutivo",
+            "patoPrincipal": "Filete de salmón a la parrilla",
+            "entrada":"Ensalada César",
+            "postre":"Cannoli relleno de chocolate",
+            "precio":18000,
+            "imagen":"img/menu4.jpg"
+        }
+    ]
+}
