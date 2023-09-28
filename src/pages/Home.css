@@ -1,6 +1,6 @@
 /* Estilos para el fondo del encabezado*/
 .banner {
-    background-image: url('img/pexels-engin-akyurt-1435898.jpg');
+    background-image: url('/public/img/pexels-engin-akyurt-1435898.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -62,7 +62,7 @@
 
   /* Estilos para la sección de foto interior y reseña italiana */
   .foto-interior {
-    background-image: url('img/pexels-lisa-fotios-1279330.jpg'); 
+    background-image: url('/public/img/pexels-lisa-fotios-1279330.jpg'); 
     background-size: cover;
     background-position: center;
     text-align: center;
